@@ -12,41 +12,11 @@ export const About = () => {
           I am Ömer Fatih Bülbül and I am 21 years old from Turkey. I am
           studying Computer Science at Ankara University and this is my 3rd year
           with a 3.75 GPA.Throughout my undergraduate education, I have been
-          focused on front-end development. I cloned landing pages, worked on
-          responsive designs, fetched and visualized API’s and I shared my
+          focused on full stack development. I can clone landing pages, make
+          responsive designs. Also I can create back-end, connect to a database
+          and transfer data between back-end and front-end. I share some of my
           projects on my Github account.
         </p>
-        {/*         <p className="ul-text">
-          I know and use these programming languages for developing projects:
-        </p>
-        <ul>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-        </ul>
-        <p className="ul-text">
-          I know and use these frameworks for developing projects:
-        </p>
-        <ul>
-          <li>React</li>
-          <li>Bootstrap</li>
-          <li>Tailwind CSS</li>
-          <li>Express.js</li>
-          <li>Node.js</li>
-        </ul>
-        <p className="ul-text">
-          I am also familiar with these languages/tools:
-        </p>
-        <ul>
-          <li>Java/C#</li>
-          <li>Python</li>
-          <li>C/C++</li>
-          <li>SQL</li>
-        </ul>
-        <p className="text-danger text-center">
-          I am looking for an internship for summer 2023. You can contact me for
-          details:
-        </p> */}
         <h2 className="mt-5 text-center text-dark">My Skills</h2>
         <div
           id="carouselExampleControls"
@@ -84,13 +54,13 @@ export const About = () => {
             <div className="carousel-item p-3">
               <div className="text-center w-100 d-flex flex-column justify-content-center align-items-center">
                 <p className="ul-text">
-                  I am also familiar with these languages/tools:
+                  I am also comfortable with these languages/tools:
                 </p>
                 <ul>
                   <li>Java/C#</li>
                   <li>Python</li>
                   <li>C/C++</li>
-                  <li>SQL</li>
+                  <li>SQL/NoSQL</li>
                 </ul>
               </div>
             </div>
