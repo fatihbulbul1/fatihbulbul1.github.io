@@ -11,11 +11,10 @@ export const About = () => {
         <p>
           I am Ömer Fatih Bülbül and I am 21 years old from Turkey. I am
           studying Computer Science at Ankara University and this is my 3rd year
-          with a 3.75 GPA.Throughout my undergraduate education, I have been
-          focused on full stack development. I can clone landing pages, make
-          responsive designs. Also I can create back-end, connect to a database
-          and transfer data between back-end and front-end. I share some of my
-          projects on my Github account.
+          with a 3.72 GPA. I work on deep learning, computer vision, artifical
+          intelligence and neural networks. I have also solid experience on
+          full-stack web development. I share some of my projects on my Github
+          account.
         </p>
         <h2 className="mt-5 text-center text-dark">My Skills</h2>
         <div
@@ -31,7 +30,7 @@ export const About = () => {
                   projects:
                 </p>
                 <ul>
-                  <li>CSS</li>
+                  <li className="text-danger">Python</li>
                   <li>JavaScript</li>
                   <li>TypeScript</li>
                 </ul>
@@ -40,7 +39,21 @@ export const About = () => {
             <div className="carousel-item p-3">
               <div className="text-center w-100 d-flex flex-column justify-content-center align-items-center">
                 <p className="ul-text">
-                  I know and use these frameworks for developing projects:
+                  I am using these frameworks for developing projects:
+                </p>
+                <ul>
+                  <li>OpenCV</li>
+                  <li>Tensorflow</li>
+                  <li>Pytorch</li>
+                  <li>Numpy</li>
+                  <li>Keras</li>
+                </ul>
+              </div>
+            </div>
+            <div className="carousel-item p-3">
+              <div className="text-center w-100 d-flex flex-column justify-content-center align-items-center">
+                <p className="ul-text">
+                  I have also experience in these development environments:
                 </p>
                 <ul>
                   <li>React</li>
@@ -54,11 +67,10 @@ export const About = () => {
             <div className="carousel-item p-3">
               <div className="text-center w-100 d-flex flex-column justify-content-center align-items-center">
                 <p className="ul-text">
-                  I am also comfortable with these languages/tools:
+                  Besides, I am comfortable with these languages/tools:
                 </p>
                 <ul>
                   <li>Java/C#</li>
-                  <li>Python</li>
                   <li>C/C++</li>
                   <li>SQL/NoSQL</li>
                 </ul>

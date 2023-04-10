@@ -96,6 +96,9 @@ nav:hover {
 .carousel-item:nth-child(3) {
   background-color: #533483;
 }
+.carousel-item:nth-child(4) {
+  background-color: #356785;
+}
 @keyframes nav-animation {
   0% {
     height: 0;

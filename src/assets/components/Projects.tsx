@@ -32,20 +32,7 @@ export const Projects = () => {
                 className="thumbnail"
                 onClick={() => window.open(repo.html_url)}
                 onError={(e) => {
-                  switch (repo.name) {
-                    case "react-responsive-url-shortener":
-                      e.currentTarget.src = `https://raw.githubusercontent.com/fatihbulbul1/react-responsive-url-shortener/main/src/images/screenshot_main.png`;
-                      break;
-                    case "react-color-guesser":
-                      e.currentTarget.src = `https://raw.githubusercontent.com/fatihbulbul1/react-color-guesser/main/images/screenshot_main.png`;
-                      break;
-                    case "react-ip-tracker-app":
-                      e.currentTarget.src = `https://raw.githubusercontent.com/fatihbulbul1/react-ip-tracker-app/main/images/screenshot_main.png`;
-                      break;
-                    case "react-rest-countries-api":
-                      e.currentTarget.src =
-                        "https://raw.githubusercontent.com/fatihbulbul1/react-rest-countries-api/main/images/screenshot_light.png";
-                  }
+                  e.currentTarget.src = `https://raw.githubusercontent.com/fatihbulbul1/${repo.name}/main/images/screenshot.png`;
                 }}
                 src={url}
                 alt=""
