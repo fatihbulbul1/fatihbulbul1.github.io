@@ -8,7 +8,7 @@ export const About = () => {
     >
       <h2 className="mb-4 text-dark text-center">About me</h2>
       <div className="row justify-content-center">
-        <p>
+        <p style={{ maxWidth: "60%" }}>
           I am Ömer Fatih Bülbül and I am 21 years old from Turkey. I am
           studying Computer Science at Ankara University and this is my 3rd year
           with a 3.72 GPA. I work on deep learning, computer vision, artifical
